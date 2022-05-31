@@ -1,0 +1,27 @@
+{
+  "name": "gama-no-node-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviusedano/gama-node-e-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaviusedano/gama-node-e-typescript/issues"
+  },
+  "homepage": "https://github.com/otaviusedano/gama-node-e-typescript#readme",
+  "dependencies": {
+    "query-string": "^7.1.1",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36"
+  }
+}
