@@ -3,8 +3,8 @@ import {parse} from 'query-string'
 import * as url from 'url'
 import * as fs from 'fs'
 
-const hostname = '127.0.0.1'
-const port = 5000
+const hostname: string = '127.0.0.1'
+const port: number = 5000
 
 const server = createServer((req: IncomingMessage, res: ServerResponse) => {
   const location = url.parse(req.url ? req.url : '', true)
